@@ -33,7 +33,7 @@
             this.eToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.headerLabel = new System.Windows.Forms.Label();
             this.tournamentName = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.roundLabel = new System.Windows.Forms.Label();
             this.roundDropDown = new System.Windows.Forms.ComboBox();
             this.unplayedOnlyCheckbox = new System.Windows.Forms.CheckBox();
             this.matchupListBox = new System.Windows.Forms.ListBox();
@@ -88,18 +88,18 @@
             this.tournamentName.Text = "<none>";
             this.tournamentName.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // label1
+            // roundLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20F);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(64, 124);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 37);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Round";
-            this.label1.Click += new System.EventHandler(this.label1_Click_2);
+            this.roundLabel.AutoSize = true;
+            this.roundLabel.Font = new System.Drawing.Font("Segoe UI", 20F);
+            this.roundLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.roundLabel.Location = new System.Drawing.Point(64, 124);
+            this.roundLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.roundLabel.Name = "roundLabel";
+            this.roundLabel.Size = new System.Drawing.Size(94, 37);
+            this.roundLabel.TabIndex = 4;
+            this.roundLabel.Text = "Round";
+            this.roundLabel.Click += new System.EventHandler(this.label1_Click_2);
             // 
             // roundDropDown
             // 
@@ -229,7 +229,7 @@
             this.Controls.Add(this.matchupListBox);
             this.Controls.Add(this.unplayedOnlyCheckbox);
             this.Controls.Add(this.roundDropDown);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.roundLabel);
             this.Controls.Add(this.tournamentName);
             this.Controls.Add(this.headerLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 20.25F);
@@ -250,7 +250,7 @@
         private System.Windows.Forms.ToolStripMenuItem eToolStripMenuItem;
         private System.Windows.Forms.Label headerLabel;
         private System.Windows.Forms.Label tournamentName;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label roundLabel;
         private System.Windows.Forms.ComboBox roundDropDown;
         private System.Windows.Forms.CheckBox unplayedOnlyCheckbox;
         private System.Windows.Forms.ListBox matchupListBox;
